@@ -36,5 +36,5 @@ describe('testando componente Pokedex', () => {
     const buttonAll = screen.getByText(/all/i);
     userEvent.click(buttonAll);
     expect(buttonAll).toBeInTheDocument();
-});
+  });
 });
